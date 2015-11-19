@@ -4,6 +4,12 @@
             <p><?php the_author_meta('description'); ?></p>
           </div>
           <div class="sidebar-module">
+            <h4>Frequent</h4>
+            <ol class="list-unstyled">
+              <?php awepop_popularity_list(); ?>
+            </ol>
+          </div>
+          <div class="sidebar-module">
             <h4>Archives</h4>
             <ol class="list-unstyled">
               <?php wp_get_archives('type=monthly'); ?>

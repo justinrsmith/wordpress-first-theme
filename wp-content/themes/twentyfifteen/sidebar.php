@@ -8,8 +8,10 @@
  */
 
 if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
+	
+	
 	<div id="secondary" class="secondary">
-
+		<?php awepop_popularity_list(); ?>
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
 			<nav id="site-navigation" class="main-navigation" role="navigation">
 				<?php
