@@ -17,7 +17,7 @@ get_header(); ?>
 
 				<?php 
 					get_template_part( 'content', get_post_format() );
-					awepop_show_views();  
+					awepop_show_views();
 				?>
 
 				<?php twentythirteen_post_nav(); ?>

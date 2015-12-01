@@ -6,7 +6,7 @@
           <div class="sidebar-module">
             <h4>Frequent</h4>
             <ol class="list-unstyled">
-              <?php awepop_popularity_list(); ?>
+             <?php awepop_popularity_list(); ?>
             </ol>
           </div>
           <div class="sidebar-module">
